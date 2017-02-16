@@ -2,8 +2,8 @@ import xbmc
 import xbmcgui
 import os
 
-appname="Netflix"
-packagename="com.netflix.mediaclient"
+appname="Plex"
+packagename="com.plexapp.android"
 
 def launcher():
 	packagepath = os.popen('pm path %s' % packagename).read()
